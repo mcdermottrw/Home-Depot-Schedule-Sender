@@ -1,0 +1,20 @@
+# IntelliJ
+/shelf/
+/.idea/workspace.xml
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+# Java
+.mtj.tmp/
+*.class
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# properties files found in /res
+res/*.properties

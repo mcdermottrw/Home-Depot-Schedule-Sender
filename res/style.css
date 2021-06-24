@@ -1,0 +1,120 @@
+/* For the root of the window */
+.interface {
+    -fx-background-color: white;
+    -fx-alignment: center;
+    -fx-spacing: 10;
+    -fx-padding: 10;
+    -fx-border-color: black;
+    -fx-border-width: 1 0 0 0;
+}
+
+/* For the title Label on the LoginInterface page */
+.login-label {
+    -fx-font-size: 32px;
+}
+
+/* For all of the Labels found above TextFields (or even a ListView in one case) */
+.field-label {
+    -fx-text-fill: #848484;
+    -fx-text-alignment: left;
+}
+
+/* General styling for all TextFields */
+.text-field {
+    -fx-alignment: center;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 2 0;
+    -fx-background-color: white;
+}
+
+/* General styling for all buttons */
+.button {
+    -fx-border-color: black;
+    -fx-background-color: #EFEFEF;
+    -fx-font-size: 14px;
+}
+.button:hover {
+    -fx-background-color: #E6E6E6;
+}
+
+/* For the error labels found on both the LoginInterface and ConfigureInterface */
+.error-label {
+    -fx-text-fill: red;
+    -fx-text-alignment: center;
+}
+
+/* For a Label that displays the username on the ConfigureInterface page */
+.header-label {
+    -fx-font-size: 24px;
+    -fx-border-color: black;
+    -fx-border-width: 0 0 2 0;
+}
+
+/* */
+.phone-number-label {
+    -fx-text-alignment: left;
+    -fx-font-size: 16px;
+}
+
+/* For the logout Button found on the ConfigureInterface page */
+.logout-button {
+    -fx-background-color: white;
+    -fx-text-fill: red;
+    -fx-border-color: red;
+    -fx-border-width: 0 0 2 0;
+}
+.logout-button:hover {
+    -fx-background-color: #FFDDDD;
+}
+
+/* Settings for all HBox's found on the configuration page */
+.configuration-hbox {
+    -fx-spacing: 5;
+    -fx-padding: 5;
+    -fx-alignment: bottom-center;
+}
+
+/* General styling for all ListViews */
+.list-view {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 1 0 1 0;
+}
+
+/* For the add Button found next to the add phone numbers TextField */
+.add-button {
+    -fx-background-color: white;
+    -fx-border-width: 0 0 2 0;
+}
+
+/* For the Label that displays the username on the CountdownInterface */
+.username-label {
+    -fx-font-size: 24px;
+}
+
+/* For the Label that counts down from 30 on the CountdownInterface */
+.counter-label {
+    -fx-font-size: 60px;
+    -fx-padding: -15px 0px;
+}
+
+/* For the send schedules Button on the CountdownInterface */
+.send-button {
+    -fx-background-color: #B5FDAC;
+}
+.send-button:hover {
+    -fx-background-color: #A9FE9E;
+}
+
+/* For the configure Button on the CountdownInterface */
+.configure-button {
+    -fx-background-color: #ACD8FD;
+}
+.configure-button:hover {
+    -fx-background-color: #9ED1FE;
+}
+
+/* For Loading... labels found throughout the application whenever loading occurs */
+.loading-label {
+    -fx-font-size: 16px;
+}
